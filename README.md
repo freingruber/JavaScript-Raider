@@ -501,7 +501,7 @@ But for this, I need computation resources, which I currently don't have.
 
 
 
-## How can I fuzz in the cloud?
+### How can I fuzz in the cloud?
 Let's say you tested the fuzzer and you actually want to start the fuzzer on multiple systems.
 Currently, the fuzzer just supports GCE (Google Cloud Platform) because synchronization is implemented
 via GCE buckets (but it's trivial to implement another synchronization mechanism). 
