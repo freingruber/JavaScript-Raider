@@ -1,0 +1,2 @@
+At the moment the "generator" code is still stored in JS_FUZZER.py.
+For the future, I plan to separate the code and introduce generators which allow a better configuration of them.
