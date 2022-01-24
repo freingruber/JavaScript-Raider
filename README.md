@@ -8,7 +8,7 @@ The integration of the JavaScript engine is based on the REPRL and LibCoverage c
 Fuzzing is therefore performed in-memory with a typical execution speed of 5-15 exec/sec/core 
 (coverage feedback enabled) or 20-30 exec/sec/core (coverage feedback disabled).
 
-You can find more details in my blog post at: TODO
+You can find more details in [my blog post](https://apt29a.blogspot.com/2022/01/fuzzing-chromes-javascript-engine-v8.html).
 
 ## Introduction
 
@@ -457,7 +457,7 @@ In my fuzzing sessions just 3 exceptions occurred in 13,6 CPU years of fuzzing.
 In total, I found 18 unique bugs in v8. 7 of these bugs were security vulnerabilities.
 4 of these 7 security vulnerabilities were already known and duplicates.
 From the 3 remaining vulnerabilities, 2 were similar.
-You can find more details in my blog post. TODO Link
+You can find more details in [my blog post](https://apt29a.blogspot.com/2022/01/fuzzing-chromes-javascript-engine-v8.html).
 Btw, if you find a new vulnerability with the fuzzer, it would be nice if you drop me a short message.
 Especially, if you plan to sell and get rich with it ;)
 
